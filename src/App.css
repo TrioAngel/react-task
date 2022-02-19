@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(230, 228, 228);
+}
+
+.app {
+  display: grid;
+  width: 85%;
+  margin: 50px auto 0;
+
+  grid-template-areas: "n c";
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 10px;
+}
+
+.app-content {
+  grid-area: c;
+}

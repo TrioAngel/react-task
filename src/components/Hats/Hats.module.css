@@ -1,0 +1,36 @@
+.imgsBlock {
+    padding: 0 20px;
+}
+
+.imgBlock {
+    display: inline-block;
+    margin: 10px;
+}
+
+.imgBlock img {
+    width: 175px;
+    height: 175px;
+    border-radius: 20px;
+
+}
+
+.imgGetmoreBtn {
+    text-align: center;
+    margin-top: 20px;    
+}
+
+.imgGetmoreBtn button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: none;
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid rgb(180, 178, 178);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.imgGetmoreBtn button:hover {
+    background-color: rgb(180, 178, 178);
+    border:1px solid rgb(180, 178, 178);
+}

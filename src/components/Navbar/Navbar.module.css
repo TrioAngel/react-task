@@ -1,0 +1,19 @@
+.navbar {
+    grid-area: n;
+}
+
+.link {
+    margin: 10px 0;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: 2px solid #4d4c4c;
+    color: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(180, 178, 178);
+}
+
+.link:hover {
+    color: #000000;
+}
